@@ -36,12 +36,12 @@ RGB LED indicators provide real-time status updates on Wi-Fi connectivity and da
 
 Before uploading the sketch, update the following constants:
 
-const char* ssid = "your_wifi_name";
-const char* password = "your_wifi_password";
+    const char* ssid = "your_wifi_name";
+    const char* password = "your_wifi_password";
 
-const char* FIREBASE_API_KEY = "your_firebase_api_key";
-const char* FIREBASE_PROJECT_ID = "your_project_id";
-const char* DOCUMENTO_FIRESTORE = "your_firestore_collection";
+    const char* FIREBASE_API_KEY = "your_firebase_api_key";
+    const char* FIREBASE_PROJECT_ID = "your_project_id";
+    const char* DOCUMENTO_FIRESTORE = "your_firestore_collection";
 
 
 How It Works
