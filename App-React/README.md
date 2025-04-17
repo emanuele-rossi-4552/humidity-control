@@ -6,22 +6,22 @@ This is a simple React app that reads temperature and humidity data from a Fireb
 To connect the app to your own Firebase project, edit the Firebase configuration inside "App.js".  
 Look for the following section:
 
-const firebaseConfig = {
-  apiKey: "API_key",
-  authDomain: "Domain",
-  projectId: "Project_ID",
-  storageBucket: "Storage",
-  messagingSenderId: "Sende_ID",
-  appId: "App_ID"
-};
+  const firebaseConfig = {
+    apiKey: "API_key",
+    authDomain: "Domain",
+    projectId: "Project_ID",
+    storageBucket: "Storage",
+    messagingSenderId: "Sende_ID",
+    appId: "App_ID"
+  };
 
 Replace the placeholder values with your actual Firebase credentials, which you can find in your Firebase Console.
 
 ## Features
-    - Retrieves data from Firestore (letture collection)
-    - Filters and visualizes data by year, month, and day
-    - Displays temperature and humidity in interactive line charts
-    - Responsive layout for different screen sizes
+ - Retrieves data from Firestore (letture collection)
+ - Filters and visualizes data by year, month, and day
+ - Displays temperature and humidity in interactive line charts
+ - Responsive layout for different screen sizes
 
 ## Technologies Used
  - React
