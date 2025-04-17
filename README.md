@@ -1,5 +1,5 @@
 
-# Weather Dashboard with Firebase and ESP32 
+# Humidity control system with Firebase and ESP32
 This project combines two parts: a **React app** for visualizing temperature and humidity data and an **ESP32-based device** for collecting sensor data.
 The app retrieves the data from a Firebase Firestore database and displays it through interactive charts.
 
