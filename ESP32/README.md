@@ -45,14 +45,14 @@ const char* DOCUMENTO_FIRESTORE = "your_firestore_collection";
 
 
 How It Works
-    ESP32 connects to Wi-Fi (with max 20 retries).
+  ESP32 connects to Wi-Fi (with max 20 retries).
 
-    If successful, it sets the time using pool.ntp.org.
+  If successful, it sets the time using pool.ntp.org.
 
-    Every hour:
+  Every hour:
     It reads 10 temperature/humidity values from DHT11.
     Averages them.
 
-    Sends them to Firestore.
+  Sends them to Firestore.
 
-    LED color changes based on result.
+  LED color changes based on result.
