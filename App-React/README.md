@@ -6,14 +6,14 @@ This is a simple React app that reads temperature and humidity data from a Fireb
 To connect the app to your own Firebase project, edit the Firebase configuration inside "App.js".  
 Look for the following section:
 
-  const firebaseConfig = {
+    const firebaseConfig = {
     apiKey: "API_key",
     authDomain: "Domain",
     projectId: "Project_ID",
     storageBucket: "Storage",
     messagingSenderId: "Sende_ID",
     appId: "App_ID"
-  };
+    };
 
 Replace the placeholder values with your actual Firebase credentials, which you can find in your Firebase Console.
 
